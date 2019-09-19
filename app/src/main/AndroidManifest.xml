@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.plantapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".humedadmaiz"></activity>
+        <activity android:name=".HumedadP" />
+        <activity android:name=".orquidea4" />
+        <activity android:name=".orquidea3" />
+        <activity android:name=".orquidea2" />
+        <activity android:name=".orquidia1" />
+        <activity android:name=".Firstact">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".maiz3" />
+        <activity android:name=".maiz2" />
+        <activity android:name=".maiz1" />
+        <activity android:name=".calabaza3" />
+        <activity android:name=".calabaza2" />
+        <activity android:name=".calabaza1" />
+        <activity android:name=".zanahoria3" />
+        <activity android:name=".zanahoria2" />
+        <activity android:name=".zanahoria1" />
+        <activity android:name=".Planta" />
+        <activity android:name=".RecuContra3" />
+        <activity android:name=".RecuContra2" />
+        <activity android:name=".RecuContra" />
+        <activity android:name=".Informacion" />
+        <activity android:name=".Registro1" />
+        <activity android:name=".Login1" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
