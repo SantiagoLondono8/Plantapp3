@@ -47,4 +47,6 @@
     <string name="nommaiz">Maíz</string>
     <string name="nomzana">Zanahoria</string>
     <string name="regar">Regar</string>
+    <string name="blueto">Conectar Sensor</string>
+    <string name="bluetoff">Desconectar Sensor</string>
 </resources>
