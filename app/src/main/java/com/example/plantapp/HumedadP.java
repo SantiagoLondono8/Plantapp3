@@ -84,7 +84,7 @@ public class HumedadP extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             if (blue1.isEnabled()){
-                pairedTv.setText("Dispositivos Emparejados");
+                pairedTv.setText("Dispositivos Emparejado");
                 Set<BluetoothDevice> devices=blue1.getBondedDevices();
                 for (BluetoothDevice device:devices){
                     pairedTv.append("");
