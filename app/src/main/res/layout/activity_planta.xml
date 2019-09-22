@@ -18,6 +18,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="#562E7E0D"
+        android:onClick="siguiente"
         android:text="@string/guardar"
         android:textColor="#FFFFFF"
         android:textColorHint="#739C59"

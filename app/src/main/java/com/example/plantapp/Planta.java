@@ -53,4 +53,8 @@ public class Planta extends AppCompatActivity {
     public void isensor(View view){
         Toast.makeText(this, "Inserte el sensor en la tierra debajo de la planta", Toast.LENGTH_LONG).show();
     }
+    public void siguiente(View view){
+        Intent siguiente1=new Intent(this,HumedadP.class);
+        startActivity(siguiente1);
+    }
 }
